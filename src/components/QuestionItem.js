@@ -2,29 +2,33 @@ import { Link } from 'react-router-dom'
 import axios from 'axios'
 import { Button } from 'react-bootstrap';
 import { useState } from 'react';
+import { v4 as uuid } from 'uuid';
 
 
 export default function QuestionItem (props) {
   let [message, setMessage] = useState("")
+  const unique_id = uuid();
 
     const handleDelete = async (event) => {
         event.preventDefault();
         setMessage('')
         const id = document.getElementById(`${props.item.question_id}`).value;
-        const removeID = document.getElementById(`${props.item.question_id}`);
-        const removeText = document.getElementById(`${props.item.question_text}`);
-        const removeDeleteBtn = document.getElementById("deleteButton");
-        const removeEditBtn = document.getElementById("editButton");
-        const removeIDLabel = document.getElementById("questionIDLabel");
-        const removeTextLabel = document.getElementById("questionTextLabel");
+      //   const removeID = document.getElementById(`${props.item.question_id}`);
+      //   const removeText = document.getElementById(`${props.item.question_text}`);
+      //   const removeDeleteBtn = document.getElementById("deleteButton");
+      //   const removeEditBtn = document.getElementById("editButton");
+      //   const removeIDLabel = document.getElementById("questionIDLabel");
+      //   const removeTextLabel = document.getElementById("questionTextLabel");
 
-        const removeArray = [ removeID, removeText, removeIDLabel, removeTextLabel, removeDeleteBtn, removeEditBtn ];
+      //   const removeArray = [ removeID, removeText, removeIDLabel, removeTextLabel, removeDeleteBtn, removeEditBtn ];
 
-        const remove =removeArray.map((item) => {
-          return (
-              item.remove()
-          )
-      })
+      //   const remove =removeArray.map((item) => {
+      //     return (
+      //         item.remove()
+      //     )
+      // })
+
+      const listItem = document.getElementById(`${unique_id}`)
     
         await axios
           .delete(`http://localhost:5000/questions/${id}`, {
@@ -39,7 +43,8 @@ export default function QuestionItem (props) {
             console.log(error)
             console.log("question was not deleted");
           });
-          remove()
+          // remove()
+          listItem.remove()
       }
 
       const handleEdit = async (event) => {
@@ -70,14 +75,14 @@ export default function QuestionItem (props) {
 
 
     return (
-        <li>   
+        <li id={unique_id}>   
             <form>
             <label id="questionTextLabel" style={{display:"inline-block", width:"100px", textAlign:"right", paddingRight:"10px"}}>Question:</label>
             <input 
             defaultValue={props.item.question_text} 
             type="text"  
             id={props.item.question_text} 
-            style={{width:"30%"}}
+            style={{width:"50%"}}
             />
             <br/>
             <label id="questionIDLabel" style={{display:"inline-block", width:"100px", textAlign:"right", paddingRight:"10px"}}>Question ID:</label>
@@ -85,7 +90,7 @@ export default function QuestionItem (props) {
             value={props.item.question_id}
             type="text" 
             id={props.item.question_id}
-            style={{width:"30%"}} 
+            style={{width:"50%"}} 
             />
             <br/>
                 <Button onClick={handleDelete} variant="danger" size='sm' type="submit" id="deleteButton">
