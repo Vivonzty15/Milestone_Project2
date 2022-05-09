@@ -3,7 +3,6 @@ import QuestionItem from "./QuestionItem"
 
 
  function QuestionContainer (props) {
-    // const data = useContext(GalleryItem).result.read()
 
     const display = props.data.map((item,index) => {
         return (
