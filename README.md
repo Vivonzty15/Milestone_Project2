@@ -39,6 +39,7 @@ This project required Front and Back-end development as well APIs. Also we use R
 - ElephantSQL
 - React
 - Netlify
+- Heroku
 - Express
 - Node.js
 
