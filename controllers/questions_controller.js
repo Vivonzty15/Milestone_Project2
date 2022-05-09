@@ -9,6 +9,7 @@ const { Op } = require('sequelize');
 questions.get('/', async (req, res) => {
         try {
         const foundQuestions = await Question.findAll({
+            order: db.sequelize.random(),
             limit: 10,
             include: {
                 model: Answer,
