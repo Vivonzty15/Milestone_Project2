@@ -38,8 +38,10 @@ This project required Front and Back-end development as well APIs. Also we use R
 ![Image API Database](https://github.com/Vivonzty15/Milestone_Project2/blob/main/Images/API%20data%20base.png)
 - ElephantSQL
 - React
-- Visual Studio
 - Netlify 
+- Haroku
+- Express
+- Node.js
 
 ## Install & Run
  React Basic Installation
@@ -121,5 +123,5 @@ Made by:
 
 ### Work In Progress
 - Original Idea was to do a Trivia game with a social media included, the social profile part of the game is work in process
-- Score board. Right now everyone that plays our Trivia game is going to be a genius, since the part of evaluating each question as right or wrong still work in process.
+
 
