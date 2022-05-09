@@ -9,7 +9,7 @@ export default function AboutUs () {
         <li>We are KSU Software Developer students</li>
         <br/>
         <p>KSU partnered with ThriveDX, which helps to reskill and upskill students in today`s fast-growing digital economy and give us real life experience, like this project. </p>
-        <h3>Look us in Linkedin:</h3>
+        <h3>Find us in Linkedin:</h3>
         <br/>
         <br/>
        <a href="https://www.linkedin.com/in/benjamin-froehlich-934650a2/">Benjamin Froehlich</a>
