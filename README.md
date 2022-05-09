@@ -23,7 +23,7 @@ A template of README best practices to make your README simple to understand and
 - [Credits](#credits)
 - [Issues](#issues)
 - [Work In Progress](#WorkInProgress)
-- 
+
 ## Project Description
 This project required Front and Back-end development as well APIs. Also we use React &Redux and SQL. 
 ## ERD
@@ -38,8 +38,7 @@ This project required Front and Back-end development as well APIs. Also we use R
 ![Image API Database](https://github.com/Vivonzty15/Milestone_Project2/blob/main/Images/API%20data%20base.png)
 - ElephantSQL
 - React
-- Netlify 
-- Haroku
+- Netlify
 - Express
 - Node.js
 
@@ -47,10 +46,11 @@ This project required Front and Back-end development as well APIs. Also we use R
  React Basic Installation
  (https://reactrouter.com/docs/en/v6/getting-started/installation#basic-installation)
 ## Usage
-### Click here to play:
-[Play](https://astonishing-profiterole-3abd38.netlify.app/)
 
-## Sources
+### Click here to play:
+Please launch both to test the app!
+[Play Back-End Heroku](https://milestoneproject2backend.herokuapp.com/)
+[Play Front-End Netlify](https://joyful-blancmange-178501.netlify.app/)
 
 ### Back_End:
 
@@ -122,6 +122,10 @@ Made by:
 - Score in our questions
 
 ### Work In Progress
-- Original Idea was to do a Trivia game with a social media included, the social profile part of the game is work in process
-
+- The original idea was to do a trivia game with social media included, the social profile part of the game is a work in process.
+- Add profile tab and login screen to game and have the ability to chat with others and answer questions together.
+- Edit add question form to allow adding answers to the question. There is currently a text placeholder for question review.
+- When viewing questions if you change the email address in the search bar the first question entry does not update.
+- Question answers are currently not random and the correct answer is always "A". Working on randomizing answers array.
+- Clean up code and remove uncessary files.
 
