@@ -48,10 +48,8 @@ This project required Front and Back-end development as well APIs. Also we use R
  (https://reactrouter.com/docs/en/v6/getting-started/installation#basic-installation)
 ## Usage
 
-### Click here to play:
-Please launch both to test the app!
-[Play Back-End Heroku](https://milestoneproject2backend.herokuapp.com/)
-[Play Front-End Netlify](https://joyful-blancmange-178501.netlify.app/)
+### Click to play:
+[Play](https://joyful-blancmange-178501.netlify.app/)
 
 ### Back_End:
 
