@@ -128,5 +128,5 @@ Made by:
 - Edit add question form to allow adding answers to the question. There is currently a text placeholder for question review.
 - When viewing questions if you change the email address in the search bar the first question entry does not update.
 - Question answers are currently not random and the correct answer is always "A". Working on randomizing answers array.
-- Clean up code and remove uncessary files.
+- Clean up code and remove unnecessary files.
 
