@@ -51,6 +51,8 @@ This project required Front and Back-end development as well APIs. Also we use R
 ### Click to play:
 [Play](https://joyful-blancmange-178501.netlify.app/)
 
+## Sources
+
 ### Back_End:
 
 #### A database on ElephantSQL with data populated from Open Trivia Database. 
