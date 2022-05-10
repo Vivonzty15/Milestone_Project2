@@ -7,9 +7,6 @@ This milestone project takes place at the end of the web developer unit of the p
 
 This project is deployed on Netlify at the following [Link](https://astonishing-profiterole-3abd38.netlify.app/).
 
-A template of README best practices to make your README simple to understand and easy to use. 
-
-
 ## Table of Contents
 
 - [Description](#description)
@@ -113,7 +110,7 @@ Made by:
 - [Bertha Zhao](https://www.linkedin.com/in/bertha-zhao-21653b91/)       
 
 ### Issues
-#### Working as a team being in constact communication is key. We do run into a merge issues with our branches.
+#### Working as a team being in constant communication is key. We do run into a merge issues with our branches.
 ### What we learned:
 - When working as a team, make sure to work in the latest version of the repository.
 - git pull origin main it is a must, so you do not override the previous work of your team.
