@@ -32,7 +32,6 @@ This is a fullstack application using express and react on the frontend, and nod
 ## Mockup
 ![Image of Wireframe](https://github.com/Vivonzty15/Milestone_Project2/blob/main/Images/Wireframe.png)
 ## Technology
-![Image API Database](https://github.com/Vivonzty15/Milestone_Project2/blob/main/Images/API%20data%20base.png)
 - ElephantSQL
 - React
 - Netlify
