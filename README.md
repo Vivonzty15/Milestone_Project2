@@ -1,7 +1,7 @@
 # Milestone Project 2
 
 
-This milestone project takes place at the end of the web developer unit of the program. It's meant to put into practice skills learned in courses 6 (Back-end Development & APIs), 7 (React & Redux), and 8 (SQL & data Modeling)
+This was a group project done as part of the Kansas State University Software Development program. It is meant to put into practice skills learned in courses 6 (Back-end Development & APIs), 7 (React & Redux), and 8 (SQL & data Modeling)
 
 ## Deployment
 
@@ -22,7 +22,7 @@ This project is deployed on Netlify at the following [Link](https://astonishing-
 - [Work In Progress](#WorkInProgress)
 
 ## Project Description
-This project required Front and Back-end development as well APIs. Also we use React &Redux and SQL. 
+This is a fullstack application using express and react on the frontend, and node.js on the backend. It is a trivia game, which you can add your own questions to. 
 ## ERD
 
 ![Image of Trivia ERD](./public/erd.png)
@@ -36,14 +36,13 @@ This project required Front and Back-end development as well APIs. Also we use R
 - ElephantSQL
 - React
 - Netlify
-- Heroku
 - Express
+- React
 - Node.js
 
-## Install & Run
- React Basic Installation
- (https://reactrouter.com/docs/en/v6/getting-started/installation#basic-installation)
-## Usage
+## Technical information
+ After cloning run "npm install" in the terminal
+ To start the application, run "npm start"
 
 ### Click to play:
 [Play](https://joyful-blancmange-178501.netlify.app/)
@@ -95,11 +94,6 @@ This project required Front and Back-end development as well APIs. Also we use R
 
 ### Additional Resources:
 
-Help with code to refactor the new question form to use axios.
-
-Code debugging 
-
-
 Instructors Chance Embrey and Aram Hammoudeh
 
 ### Credits
@@ -110,20 +104,11 @@ Made by:
 - [Bertha Zhao](https://www.linkedin.com/in/bertha-zhao-21653b91/)       
 
 ### Issues
-#### Working as a team being in constant communication is key. We do run into a merge issues with our branches.
+#### While working as a team, being in constant communication is key. We did run into a merge issues with our branches.
 ### What we learned:
 - When working as a team, make sure to work in the latest version of the repository.
-- git pull origin main it is a must, so you do not override the previous work of your team.
-- ![Image Updating the repository](https://github.com/Vivonzty15/Milestone_Project2/blob/main/Images/git%20pull%20origin%20main.png)
 - Connecting the Front-End with Back-End.
 - Running Back-end and Front-end syncronized.
-- Score in our questions
-
-### Work In Progress
-- The original idea was to do a trivia game with social media included, the social profile part of the game is a work in process.
-- Add profile tab and login screen to game and have the ability to chat with others and answer questions together.
-- Edit add question form to allow adding answers to the question. There is currently a text placeholder for question review.
-- When viewing questions if you change the email address in the search bar the first question entry does not update.
-- Question answers are currently not random and the correct answer is always "A". Working on randomizing answers array.
-- Clean up code and remove unnecessary files.
+- Couldn't get the answers to shuffle.
+- We need to clean up the repository and remove unnecessary files.
 
