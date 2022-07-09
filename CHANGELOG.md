@@ -1,0 +1,133 @@
+- new
+- new readme
+- Merge pull request #55 from Vivonzty15/BGZhao-patch-8
+- Update README.md
+- Merge pull request #54 from Vivonzty15/BGZhao-patch-7
+- Update README.md
+- Merge pull request #53 from Vivonzty15/BGZhao-patch-6
+- Update README.md
+- Merge pull request #52 from Vivonzty15/readmeFix
+- Merge branch 'main' of https://github.com/Vivonzty15/Milestone_Project2 into readmeFix
+- updating readme
+- Merge pull request #51 from Vivonzty15/BGZhao-patch-5
+- Update README.md
+- Merge pull request #50 from Vivonzty15/fixListItemRemove
+- updates
+- fixing view question issues
+- Merge branch 'main' of https://github.com/Vivonzty15/Milestone_Project2 into fixListItemRemove
+- Merge pull request #49 from Vivonzty15/BGZhao-patch-4
+- Update README.md
+- Merge branch 'main' of https://github.com/Vivonzty15/Milestone_Project2 into fixListItemRemove
+- Merge pull request #48 from Vivonzty15/BGZhao-patch-3
+- Update AboutUs.js
+- Merge branch 'main' of https://github.com/Vivonzty15/Milestone_Project2 into fixListItemRemove
+- added random() to get questions
+- fixed remove list item by using uuid
+- Merge pull request #47 from Vivonzty15/fixUpdate
+- Merge pull request #46 from Vivonzty15/sagreenxyz-patch-2
+- fixing update issue
+- Update package.json
+- Merge pull request #45 from Vivonzty15/fix_homejs
+- rename home.js to Home.js
+- wip - rename home.js to Home.js
+- Merge pull request #44 from Vivonzty15/updateQuestion
+- Merge pull request #43 from Vivonzty15/cleanup
+- update question now works
+- cleaning up code, adding state to edit
+- Merge branch 'main' of https://github.com/Vivonzty15/Milestone_Project2 into cleanup
+- Merge pull request #40 from Vivonzty15/Game
+- Merge pull request #42 from Vivonzty15/utils
+- Merge pull request #39 from Vivonzty15/reset-sample-data
+- Merge pull request #38 from Vivonzty15/deleteQuestion2
+- Merge pull request #41 from Vivonzty15/BGZhao-patch-2
+- Merge pull request #35 from Vivonzty15/deleteQuestion
+- adding utils.js with shuffleArray() function
+- Readme file
+- functional game
+- creating script to reset sample data - >npm run reset-sample-data
+- fixing some items on home
+- Merge pull request #37 from Vivonzty15/BGZhao-patch-1
+- Merge pull request #36 from Vivonzty15/Home2
+- delete with axios works
+- Update App.js
+- update links to readme
+- Merge branch 'main' of https://github.com/Vivonzty15/Milestone_Project2 into deleteQuestion
+- Merge pull request #34 from Vivonzty15/Home2
+- Merge branch 'main' into Home2
+- Add images, readme and updated aboutUs file
+- Merge pull request #33 from Vivonzty15/refactorNewQuestion
+- delete works with traditional action/method but 500 server error using axios
+- newQuestion form refactored to use Axios
+- Merge pull request #32 from Vivonzty15/sagreenxyz-patch-1
+- Adding link to Netlify deployment.
+- Merge pull request #31 from Vivonzty15/editQuestion
+- question form
+- added searchbar in questions.js, able to fetch questions by email
+- Merge branch 'main' of https://github.com/Vivonzty15/Milestone_Project2 into editQuestion
+- adding axios, working on questionview form
+- Merge pull request #30 from Vivonzty15/Game
+- added cors
+- Merge pull request #29 from Vivonzty15/Home2
+- add Linkedin
+- Merge branch 'main' of https://github.com/Vivonzty15/Milestone_Project2 into editQuestion
+- working on gallery
+- Merge pull request #28 from Vivonzty15/Home2
+- Merge pull request #27 from Vivonzty15/Game
+- Updated Home to home
+- added questions, shuffled questions
+- Merge pull request #26 from Vivonzty15/newQuestion
+- newQuestion form works
+- accepting game.js changes
+- working on front-end back-end communication
+- Merge pull request #25 from Vivonzty15/Game
+- added temporary game functionality, made small change to AboutUs
+- forgot to push changes to play component
+- Merge pull request #24 from Vivonzty15/Game
+- got rid of Start component, working on fetch request
+- Merge pull request #23 from Vivonzty15/ports
+- changing backend frontend ports
+- Merge pull request #22 from Vivonzty15/models3
+- fixing controller file type
+- Merge pull request #21 from Vivonzty15/models2
+- fixing errors img path and home, updating server connection
+- Merge pull request #20 from Vivonzty15/sample_data_mod20220503
+- adding view_questions_answers ddl
+- Merge pull request #19 from Vivonzty15/models2
+- commit
+- updating config to use elephant SQL, and updating moels/migrations to match elephantSQL
+- Merge pull request #18 from Vivonzty15/Home2
+- recommiting the stuff
+- Merge pull request #17 from Vivonzty15/fixed
+- fixed
+- Merge pull request #16 from Vivonzty15/json-server
+- Merge branch 'json-server' of https://github.com/Vivonzty15/Milestone_Project2 into json-server
+- adding json-server to project and pointing to ./sample_data/db.json for sample data
+- adding json=-server to project and pointing to ./sample_data/db.json for sample data
+- Merge pull request #15 from Vivonzty15/home
+- add images folder
+- Merge pull request #13 from Vivonzty15/Game
+- Merge pull request #12 from Vivonzty15/models
+- added Game route, and Play-component dropdowns
+- migrated tables to local db, need to connect elephantSQL
+- Merge pull request #11 from Vivonzty15/erd_changes
+- answer table flag_correct changed in ERD from bit to boolean
+- Merge pull request #10 from Vivonzty15/erd_changes
+- updating ERD to reflect normalization of answers outside of questions table
+- Merge pull request #9 from Vivonzty15/sample_data
+- adding sample data from Open Trivia Database
+- Merge pull request #8 from Vivonzty15/Questions
+- Merge branch 'main' of https://github.com/Vivonzty15/Milestone_Project2 into Questions
+- added routes, questions component
+- Merge pull request #7 from Vivonzty15/models
+- updating Home.js, adding models and migrations
+- Merge pull request #5 from Vivonzty15/routes
+- added routes, components, and styling
+- Merge pull request #4 from Vivonzty15/router
+- added components & created react-router
+- Merge pull request #3 from Vivonzty15/dependencies
+- install sequelize, dotenv, add .env
+- Merge pull request #2 from Vivonzty15/components
+- commiting components folder
+- Merge pull request #1 from Vivonzty15/readme
+- updating readme file
+- first commit
